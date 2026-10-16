@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Page not found · Sam Naveen A B</title>
+  <meta name="robots" content="noindex" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;700&family=Inter:wght@400;600&family=Caveat:wght@700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/style.css" />
+  <script src="/theme-init.js"></script>
+  <style>
+    .lost { min-height: 100svh; display: grid; place-content: center; justify-items: center; gap: 18px; text-align: center; padding: 24px; }
+    .lost svg { width: 150px; height: 160px; animation: bob 2.6s ease-in-out infinite; }
+    @keyframes bob { 50% { transform: translateY(-12px) rotate(-4deg); } }
+    .lost h1 { font-size: clamp(3rem, 10vw, 6rem); color: var(--teal-dim); font-weight: 700; }
+    .lost p { color: var(--on-dark-muted); max-width: 36ch; }
+  </style>
+</head>
+<body>
+  <main class="lost">
+    <svg viewBox="0 0 140 150" aria-hidden="true">
+      <defs><radialGradient id="b" cx=".35" cy=".3" r=".8"><stop offset="0" stop-color="#5fe0f0"/><stop offset=".55" stop-color="#1b9fd0"/><stop offset="1" stop-color="#0a5f8f"/></radialGradient></defs>
+      <line x1="70" y1="34" x2="70" y2="14" stroke="#9fb0c2" stroke-width="3" stroke-linecap="round"/><circle cx="70" cy="11" r="6" fill="#ffb020"/>
+      <circle cx="70" cy="82" r="50" fill="url(#b)"/><ellipse cx="70" cy="104" rx="31" ry="25" fill="#eefaff"/>
+      <ellipse cx="53" cy="74" rx="13" ry="14" fill="#fff"/><ellipse cx="87" cy="74" rx="13" ry="14" fill="#fff"/>
+      <circle cx="53" cy="70" r="6.5" fill="#0b1220"/><circle cx="87" cy="70" r="6.5" fill="#0b1220"/>
+      <path d="M41 50 L65 56 M99 50 L75 56" stroke="#0b1220" stroke-width="7" stroke-linecap="round" transform="rotate(0)"/>
+      <path d="M57 86 Q70 79 83 86 L70 96 Z" fill="#ffb020"/>
+    </svg>
+    <h1>404</h1>
+    <p class="note">Chirpy looked everywhere…</p>
+    <p>This page flew away. Let's get you back to somewhere that exists.</p>
+    <a class="btn btn--blue" href="/">Take me home</a>
+  </main>
+</body>
+</html>
